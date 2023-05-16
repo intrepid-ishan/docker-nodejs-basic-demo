@@ -1,6 +1,6 @@
 # Docker + Node.js
 
-### Docker
+## Docker🐋
 - Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. 
 
 - Docker enables the packaging of software into containers that can be executed in any environment.
@@ -21,7 +21,7 @@
 Refer: https://docs.docker.com/get-started/overview/
 
 
-### Commands
+## Commands💻
 
 **Check the status of running containers:**
 ```
