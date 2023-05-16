@@ -1,1 +1,2 @@
+# The COPY command in the Dockerfile honors the rules specified in the .dockerignore file, ensuring that the local node_modules directory is excluded from being copied during the build process
 node_modules
