@@ -25,7 +25,29 @@ Refer: https://docs.docker.com/get-started/overview/
 
 **Check the status of running containers:**
 ```
-docker ps
+docker ps // running container
+docker ps -a // running + stopped container
+```
+
+**Stop and remove all the containers:**
+```
+docker stop $(docker ps -aq)
+docker rm $(docker ps -aq)
+```
+
+**List all the images on your system:**
+```
+docker images -a
+```
+
+**Remove all the images:**
+```
+docker rmi $(docker images -aq)
+```
+
+**Clean up the cache**
+```
+docker system prune -a
 ```
 
 **Build the Docker image:**
@@ -51,7 +73,6 @@ docker run -p 3002:8080 <image>
 
 docker run -p 3002:8080 docker.io/ishanmakadia/basic-node-app-learn-docker:1.0
 ```
-
 
 **Create volume**
 ```
