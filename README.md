@@ -52,11 +52,17 @@ docker system prune -a
 
 **Build the Docker image:**
 ```
-docker build -t your-username/your-repo:tag /path/to/dockerfile-directory
+docker build -t your-username/image-name:tag /path/to/dockerfile-directory
 
 docker build -t ishanmakadia/basic-node-app-learn-docker:1.0 .
 ```
 
+**Push Image**
+```
+docker login
+
+docker push your-username/image-name:tag
+```
 
 **Run code inside a container:**
 ```
