@@ -2,10 +2,11 @@
 
 ## Docker🐋
 - Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. With Docker, you can manage your infrastructure in the same ways you manage your applications. 
-
 - Docker enables the packaging of software into containers that can be executed in any environment.
-
 - Docker's containerization technology focuses on virtualizing the operating system rather than the hardware.
+- Docker does not virtualize the hardware but uses containerization to provide isolated environments for applications, sharing the host machine's operating system kernel.
+- In terms of operating system virtualization, Docker also takes a different approach. Docker does not virtualize the entire operating system. Instead, it leverages the host machine's operating system, utilizing its kernel and system libraries.
+- However, Docker containers rely on the host machine's operating system kernel and do not provide the same level of isolation as virtual machines, where each VM has its own kernel and hardware resources.
 
 **Docker file**
 - The Dockerfile contains instructions for building the Docker image
